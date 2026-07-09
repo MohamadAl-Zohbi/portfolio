@@ -1,9 +1,11 @@
+import profile from '../assets/profile.png';
+import cv from '../assets/cv.pdf';
 function Home() {
   return (
-    <section 
+    <section
       id="home"
       className="min-h-screen bg-slate-950 text-white 
-                 flex flex-col justify-center px-6 md:px-20 pt-24"
+                 flex flex-col justify-center px-6 md:px-20 pt-24 pb-10"
     >
 
       {/* Hero */}
@@ -55,7 +57,8 @@ function Home() {
             </button>
 
 
-            <button
+            <a
+              href={cv}
               className="
               px-7 py-3 rounded-full
               border border-cyan-400
@@ -63,9 +66,10 @@ function Home() {
               hover:bg-cyan-400
               hover:text-black
               transition"
+              download="Mohamad Zohbi.pdf"
             >
               Download CV
-            </button>
+            </a>
 
           </div>
 
@@ -88,7 +92,7 @@ function Home() {
           >
 
             <img
-              src="/profile.jpg"
+              src={profile}
               alt="Mohamad Zohbi"
               className="
               w-full h-full
@@ -112,7 +116,7 @@ function Home() {
 
 
       {/* Services */}
-      <div 
+      <div
         className="
         max-w-7xl mx-auto
         grid md:grid-cols-3
@@ -150,7 +154,7 @@ function Home() {
 
 
 
-function Service({title, description}) {
+function Service({ title, description }) {
 
   return (
 
