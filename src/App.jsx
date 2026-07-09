@@ -1,6 +1,8 @@
 import { createBrowserRouter, RouterProvider, Link, Outlet } from 'react-router-dom';
-import Home from './pages/Home';
+import Home from './pages/home';
 import About from './pages/About';
+import "./App.css";
+
 import Navbar from './components/navbar';
 
 // 1. Create a Layout component with your navigation menu
@@ -9,11 +11,8 @@ function RootLayout() {
     <>
       <Navbar />
 
-      <main style={{ padding: '20px' }}>
+      <Outlet />
 
-        <Outlet />
-
-      </main>
     </>
   );
 }
