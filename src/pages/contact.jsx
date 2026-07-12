@@ -1,3 +1,6 @@
+import { useState } from "react";
+
+
 export default function Contact() {
   return (
     <section className="min-h-screen bg-black text-white py-20 px-6">
@@ -184,7 +187,7 @@ export default function Contact() {
 
 
 
-            <form className="space-y-5">
+            <div className="space-y-5">
 
 
               <input
@@ -246,11 +249,11 @@ export default function Contact() {
                 transition
                 "
               >
-                Send Message
+                <a href="#">Send Messag</a>
               </button>
 
 
-            </form>
+            </div>
 
 
           </div>
