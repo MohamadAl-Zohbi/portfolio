@@ -33,39 +33,39 @@ function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <a
-                            href="#about"
+                        <Link
+                            to="/about"
                             className="hover:text-cyan-400 transition duration-300"
                         >
                             About
-                        </a>
+                        </Link>
                     </li>
 
                     <li>
-                        <a
-                            href="#skills"
+                        <Link
+                            to="/skills"
                             className="hover:text-cyan-400 transition duration-300"
                         >
                             Skills
-                        </a>
+                        </Link>
                     </li>
 
                     <li>
-                        <a
-                            href="#projects"
+                        <Link
+                            to="/projects"
                             className="hover:text-cyan-400 transition duration-300"
                         >
                             Projects
-                        </a>
+                        </Link>
                     </li>
 
                     <li>
-                        <a
-                            href="#contact"
+                        <Link
+                            to="/contact"
                             className="hover:text-cyan-400 transition duration-300"
                         >
                             Contact
-                        </a>
+                        </Link>
                     </li>
 
                 </ul>
