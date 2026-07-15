@@ -5,10 +5,10 @@ export default function Skills() {
             title: "Frontend Development",
             icon: "🎨",
             skills: [
-                { name: "React.js", level: 85 },
-                { name: "Vue.js", level: 75 },
+                { name: "React.js", level: 75 },
+                { name: "Vue.js", level: 85 },
                 { name: "JavaScript", level: 90 },
-                { name: "Tailwind CSS", level: 85 },
+                { name: "Tailwind CSS", level: 65 },
                 { name: "HTML / CSS", level: 95 },
             ]
         },
@@ -18,7 +18,7 @@ export default function Skills() {
             icon: "⚙️",
             skills: [
                 { name: "PHP", level: 90 },
-                { name: "Laravel", level: 80 },
+                { name: "Laravel", level: 60 },
                 { name: "Node.js", level: 75 },
                 { name: "Express.js", level: 70 },
                 { name: "REST APIs", level: 85 },
@@ -43,16 +43,16 @@ export default function Skills() {
                 { name: "Linux", level: 70 },
                 { name: "Postman", level: 80 },
                 { name: "Web3 / Solidity", level: 65 },
-                { name: "Cybersecurity", level: 60 },
+                { name: "Cybersecurity", level: 70 },
             ]
         },
         {
             title: "Programming Languages",
             icon: "💻",
             skills: [
-                { name: "JavaScript", level: 85 },
-                { name: "PHP", level: 70 },
-                { name: "Python", level: 80 },
+                { name: "JavaScript", level: 90 },
+                { name: "PHP", level: 80 },
+                { name: "Python", level: 70 },
                 { name: "Java", level: 65 },
                 { name: "Rust", level: 60 },
             ]
@@ -61,11 +61,11 @@ export default function Skills() {
             title: "Other Technologies",
             icon: "🚀",
             skills: [
-                { name: "Web3", level: 85 },
+                { name: "Web3", level: 70 },
                 { name: "Solidity", level: 70 },
-                { name: "Substrate", level: 80 },
-                { name: "Cybersecurity Basics", level: 65 },
-                { name: "Netwarking", level: 60 },
+                { name: "Substrate", level: 50 },
+                { name: "Cybersecurity Basics", level: 70 },
+                { name: "Networking", level: 99 },
                 { name: "Cloud Computing", level: 60 },
             ]
         }

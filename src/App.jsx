@@ -9,7 +9,7 @@ import Projects from './pages/projects'
 
 import Footer from './components/footer'
 import Navbar from './components/navbar'
-
+import ScrollToTop from './components/scrollToTop';
 
 // 1. Create a Layout component with your navigation menu
 function RootLayout() {
@@ -19,6 +19,8 @@ function RootLayout() {
 
 
     <BrowserRouter>
+    <ScrollToTop/>
+    
       <Navbar />
       {/* Routes */}
       <Routes>

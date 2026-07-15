@@ -33,7 +33,7 @@ export default function About() {
 
 
                             <Link
-                                to="/contact"
+                                to="/projects"
                                 className="px-6 py-3  
                                         rounded-xl font-semibold 
                                       hover:text-white transition
@@ -43,7 +43,7 @@ export default function About() {
                             </Link>
 
                             <Link
-                                href="/contact"
+                                to="/contact"
                                 className="px-6 py-3 border border-blue-500
                                         rounded-xl font-semibold hover:bg-blue-500
                                       hover:text-white transition hover:scale-105 transition"

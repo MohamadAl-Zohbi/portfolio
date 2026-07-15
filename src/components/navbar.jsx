@@ -111,46 +111,56 @@ function Navbar() {
 
 
                     <li>
-                        <a
-                            href="#home"
+                        <Link
+                            to="/"
                             onClick={() => setOpen(false)}
                             className="hover:text-cyan-400"
                         >
                             Home
-                        </a>
+                        </Link>
                     </li>
 
 
                     <li>
-                        <a
-                            href="#about"
+                        <Link
+                            to="/about"
                             onClick={() => setOpen(false)}
                             className="hover:text-cyan-400"
                         >
                             About
-                        </a>
+                        </Link>
                     </li>
 
 
                     <li>
-                        <a
-                            href="#projects"
+                        <Link
+                            to="/projects"
                             onClick={() => setOpen(false)}
                             className="hover:text-cyan-400"
                         >
                             Projects
-                        </a>
+                        </Link>
                     </li>
 
 
                     <li>
-                        <a
-                            href="#contact"
+                        <Link
+                            to="/contact"
                             onClick={() => setOpen(false)}
                             className="hover:text-cyan-400"
                         >
                             Contact
-                        </a>
+                        </Link>
+                    </li>
+
+                    <li>
+                        <Link
+                            to="/skills"
+                            onClick={() => setOpen(false)}
+                            className="hover:text-cyan-400"
+                        >
+                            Skills
+                        </Link>
                     </li>
 
 

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import profile from '../assets/profile.png';
 import cv from '../assets/cv.pdf';
 function Home() {
@@ -46,7 +47,8 @@ function Home() {
 
           <div className="flex gap-5 mt-8">
 
-            <button
+            <Link
+              to="/projects"
               className="
               px-7 py-3 rounded-full
               bg-gradient-to-r from-cyan-500 to-blue-600
@@ -54,7 +56,7 @@ function Home() {
               font-semibold"
             >
               View Projects
-            </button>
+            </Link>
 
 
             <a
