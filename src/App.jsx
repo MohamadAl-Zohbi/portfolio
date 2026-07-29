@@ -18,7 +18,8 @@ function RootLayout() {
 
 
 
-    <BrowserRouter>
+    <BrowserRouter basename='/dist/index.html'>
+    {/* <BrowserRouter> */}
     <ScrollToTop/>
     
       <Navbar />
