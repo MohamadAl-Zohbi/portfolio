@@ -18,7 +18,7 @@ function RootLayout() {
 
 
 
-    <BrowserRouter basename='/dist/index.html'>
+    <BrowserRouter basename='portfolio/dist/index.html'>
     {/* <BrowserRouter> */}
     <ScrollToTop/>
     
